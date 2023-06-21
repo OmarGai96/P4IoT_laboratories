@@ -1,0 +1,12 @@
+{
+    "name": "Paolo",
+    "surname": "Rossi",
+    "birthYear": 1992,
+    "votes": [
+        "27",
+        "25",
+        "19",
+        "23",
+        "26"
+    ]
+}

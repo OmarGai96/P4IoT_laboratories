@@ -1,0 +1,29 @@
++  add
+-  sub
+*  mul
+/  div
+// div intera  ->    9//4 -> 2
+%  mod
+
+CONFRONTO
+==   eq	
+!=   not eq
+<    min
+<=   min eq 
+>    magg
+>=   magg eq
+
+OPERATORI BOOLEANI
+and   
+or
+not
+
+-> è possibile verificare se un oggetto è vero o falso usando  bool(oggetto)
+
+OPERATORI BINARI
+x << n     shift a sx di n pos
+x >> n 	   shift a dx di n pos
+x & y	   and bit a bit tra x e y
+x | y	   or bit a bit
+x ^ y 	   xor (or esclusivo)
+-x         not(x)

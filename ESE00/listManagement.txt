@@ -1,0 +1,10 @@
+mylist[i] #returns the i-th element of a list
+mylist.append(x) #append at the end
+mylist.insert(i, x) #insert the element x at the position i 
+mylist.remove(x) #remove the first item whose value is x
+mylist.pop()  #returns the last item
+mylist.pop(i) #returns the item at position i
+
+mylist.index(x) #returns the index of the first item in the list whose value is x
+mylist.count(x) #returns how many times x appears in the list
+len(mylist) #returns the number of elements in the list

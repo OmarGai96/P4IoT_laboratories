@@ -1,0 +1,26 @@
+#Open file in reading mode
+f=open('myFile.txt')
+#Open file in writing mode
+fw=open('myFile.txt','w')
+#Open file in append mode
+fa=open('myFile.txt','a')  //useful to write at the end of the file
+
+#close a file
+f.close()
+
+#Read the WHOLE content of a file as a STRING
+fileContent=f.read()
+
+#Read one line of a file as a STRING
+fileLine=f.readline()
+
+#Write a line on a file
+fw.write('line to write')
+
+--------JSON FILES-------------
+import json
+json.dump(myDict, open("myOutputFile.json", "w"), indent=4)  #saves dictionary myDict in a json file
+dictionaryName=json.load(open("file.json")) #saves the content of a file into a dictionary
+
+myDict2 = json.loads(myString) #converts a string into a dictionary
+myString = json.dumps(myDict) #converts a dictionary into a string

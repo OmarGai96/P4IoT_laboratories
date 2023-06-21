@@ -1,0 +1,11 @@
+{
+    "projectName": "MyCoolProject",
+    "company": "Polito",
+    "deviceList": [
+        {
+            "deviceID": "Dev1234",
+            "deviceName": "DHTsensor",
+            "deviceType": "humiditySensor"
+        }
+    ]
+}
