@@ -1,0 +1,9 @@
+{"devicesList": 
+    [
+        {"deviceName": "pippo", "measureType": "temp", "deviceID": "1", "unit": "C"}, 
+        {"deviceName": "topolino", "measureType": "hum", "deviceID": "2", "unit": "%"}, 
+        {"deviceName": "pluto", "measureType": "motion", "deviceID": "3", "unit": "bool"}, 
+        {"deviceName": "gastone", "measureType": "motion", "deviceID": "5", "unit": "%"}, 
+        {"deviceName": "paperino", "measureType": "light", "deviceID": "4", "unit": "C"}
+    ]
+}

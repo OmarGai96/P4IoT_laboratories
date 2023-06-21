@@ -1,0 +1,17 @@
+{ 
+    "userID": 1, 
+    "houseID": 1, 
+    "device": {
+        "deviceID": 5, 
+        "deviceName": "newDev", 
+        "measureType": ["Temperature", "Humidity", "Pressure"], 
+        "availableServices": ["MQTT"], 
+        "servicesDetails": [
+            {"serviceType": "MQTT", 
+            "serviceIP": "192.2.34", 
+            "topic": ["myProject/fottiti"]
+            }
+        ], 
+            "lastUpdate": "2023-05-12"
+    }
+}

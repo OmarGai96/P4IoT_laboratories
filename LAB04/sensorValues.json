@@ -1,0 +1,23 @@
+{
+    "sensorID": "IoT_project/1/2/3",
+    "message": {
+        "buildingID": "IoT_project",
+        "floorID": "1",
+        "roomID": "2",
+        "bn": "3",
+        "e": [
+            {
+                "n": "temperature",
+                "value": 22,
+                "timestamp": "1684915782.3894348",
+                "unit": "C"
+            },
+            {
+                "n": "humidity",
+                "value": 61,
+                "timestamp": "1684915782.3894348",
+                "unit": "%"
+            }
+        ]
+    }
+}

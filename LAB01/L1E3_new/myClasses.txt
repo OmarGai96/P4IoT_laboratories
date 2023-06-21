@@ -1,0 +1,37 @@
+@startuml
+
+Class Project {
+   projectOwner : String
+   projectName : String
+   projectLastUpdate: String
+   userList : User list
+   houseList : House list
+}
+
+Class User {
+   userName : String
+   userID: Integer
+   chatID: Integer
+   houseList : Integer list
+}
+
+Class House {
+  userID: Integer
+  houseID: Integer
+  deviceList : Device list
+}
+
+Class Device {
+  deviceID : Integer
+  deviceName : String
+  measureTypeList : String list
+  availableServices : String list
+  servicesDetails : Dictionary list
+  lastUpdate : String
+} 
+
+
+Project  *-- "*" User : contains
+Project  *-- "*" House : contains
+House  *-- "*" Device : contains
+@enduml
